@@ -48,3 +48,8 @@ git commit -m "premier commit dans git"
 
 //Afficher dans le terminal les différentes sauvegardes du projet
 git log
+
+//Pour revenir à une version antérieure du fichier (numéro obtenu grâce à git log)
+git checkout d93c86b56674d92028dedbe4b69eea5f2ea127b3 command_terminal.text
+
+//Idem pour revenir à la dernière version en sélectionnant le bon numérro grâce à git log
