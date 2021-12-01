@@ -45,3 +45,6 @@ Il suffit sur l'icone source Control à gauche puis appuyer sur le + apparaissan
 
 //Sauvegarder les fichiers ajoutés dans git : commit
 git commit -m "premier commit dans git"
+
+//Afficher dans le terminal les différentes sauvegardes du projet
+git log
