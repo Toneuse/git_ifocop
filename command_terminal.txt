@@ -59,3 +59,9 @@ git remote add origin https://github.com/Toneuse/git_ifocop.git
 
 //on envoie les fichiers sur github.com
 git push --set-upstream origin master
+
+//permet d'envoyer les modif vers une machine distante (ici github.com)
+git push
+
+//permet de récupérer les modif depuis une machine distante (ici github.com)
+git pull
