@@ -1,0 +1,44 @@
+//Ceci n'est pas du code
+//une ligne égale une commande dans le terminal
+
+//permet de connaitre le répertoire où on se trouve
+pwd
+
+//se déplacer dans l'arborescence via le terminal
+cd nomdurepertoire   mettre entre guillemet si non trouvé
+cd ..  //pour revenir dans le repertoire parent
+
+//permet de vider l'affichage sur le terminal
+clear
+
+//vous pouvez autocompléter le nom d'un fichier ou dossier avec la touche TAB
+
+//installation extensions: git graph, github pull requests and issues, gitignore(Michel Melluso)
+
+//Afficher la liste des fichiers dans le repetoire courant
+ls
+ls -al
+
+//Initialiser le répertoire où on utilise git
+git config --global user.name "Toneuse"
+git config --global user.author "Aurore Desmis"
+git config --global user.email "aurore_toneuse@hotmail.com"
+
+//Vérfier les paramètres utilisateur
+git config --list  puis q (quit) pour sortir de la liste
+
+
+//Initialisation du répertoire pour travailler avec git : statut Untracked
+git init
+
+//Ajouter des fichiers à la sauvegarde prochaine dans git: statut Added
+git add .   //ajoute tous les fichiers   
+git add *   //ajoute tous les fichiers
+git add index.html   
+git add index.html command_terminal.txt
+
+
+//verifier le statut
+git status  //command_terminal passe en statut M (Modified)
+
+Il suffit sur l'icone source Control à gauche puis appuyer sur le + apparaissant à côté de command_terminal
