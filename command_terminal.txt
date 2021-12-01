@@ -53,3 +53,9 @@ git log
 git checkout d93c86b56674d92028dedbe4b69eea5f2ea127b3 command_terminal.text
 
 //Idem pour revenir à la dernière version en sélectionnant le bon numérro grâce à git log
+
+//Pour lier votre git local à github - - Nouveau repository créé sur github
+git remote add origin https://github.com/Toneuse/git_ifocop.git
+
+//on envoie les fichiers sur github.com
+git push --set-upstream origin master
