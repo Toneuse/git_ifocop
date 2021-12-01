@@ -42,3 +42,6 @@ git add index.html command_terminal.txt
 git status  //command_terminal passe en statut M (Modified)
 
 Il suffit sur l'icone source Control à gauche puis appuyer sur le + apparaissant à côté de command_terminal
+
+//Sauvegarder les fichiers ajoutés dans git : commit
+git commit -m "premier commit dans git"
